@@ -47,8 +47,8 @@ function toggleAgencyB() {
 }
 
 window.addEventListener("click", function (event) {
-  const agencyA = document.getElementById("agency-a");
-  const agencyB = document.getElementById("agency-b");
+  // const agencyA = document.getElementById("agency-a");
+  // const agencyB = document.getElementById("agency-b");
   if (!dom.contains(event.target)) {
     agencyACalendar.style.display = "none";
     agencyBCalendar.style.display = "none";
